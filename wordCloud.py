@@ -6,10 +6,15 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud,ImageColorGenerator
 
 """
+python3.6
+对已分好的词txt生成词云
+
 data文件夹存放词云的字体MFQingShu_Noncommercial-Regular.otf
     以及已经分词的wordcloud.txt
 img文件夹存放词云背景图片
     以及生成的词云图
+作者：谢宗乔 xiezongqiao@foxmail.com
+时间：2018.3.13
 """
 
 # 获取当前文件路径
